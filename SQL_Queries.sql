@@ -10,7 +10,7 @@
 -- CREATE DATABASE CCDB
 USE CCDB;
 -- ============================================================
--- Step 1 : Create Database Tables
+-- Create Database Tables
 -- ============================================================
 DROP TABLE IF EXISTS cc_detail;
 
@@ -55,7 +55,7 @@ CREATE TABLE cust_detail (
     Cust_Satisfaction_Score INT
 );
 -- ============================================================
--- Step 2 : Import Credit Card Transaction Dataset
+-- Import Credit Card Transaction Dataset
 -- ============================================================
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/credit_card.csv'
 INTO TABLE cc_detail
@@ -66,7 +66,7 @@ IGNORE 1 ROWS;
 -- Verify imported transaction records
 SELECT * FROM cc_detail;
 -- ============================================================
--- Step 3 : Import Customer Dataset
+-- Import Customer Dataset
 -- ============================================================
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/customer (1).csv'
 INTO TABLE cust_detail
