@@ -75,7 +75,7 @@ Power BI Dashboard
 ---
 # 📈 Business Insights
 
-> 📄 **For a detailed analysis, business recommendations, and strategic findings, refer to the `Business_Insights_Report.pdf` included in this repository.**
+> 📄 **For a detailed analysis, business recommendations, and strategic findings, refer to the `3_Business_Insights_Report.pdf` included in this repository.**
 
 ---
 
