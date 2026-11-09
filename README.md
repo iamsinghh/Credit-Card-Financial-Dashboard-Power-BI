@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💳 Credit Card Financial Dashboard
+# 💳 Consumer Credit Portfolio & Revenue Operations Analysis
 
 Interactive Business Intelligence Dashboard built with Power BI to analyze customer behavior, transaction trends, and business performance.
 
